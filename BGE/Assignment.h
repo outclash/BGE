@@ -26,6 +26,6 @@ namespace BGE
 		shared_ptr<PhysicsController> CreateM1();
 		//procedural tower like 
 		void CreateProcedural();
-		int sR;
+		int sR = 0;
 	};
 }
