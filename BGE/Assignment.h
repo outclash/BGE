@@ -23,8 +23,10 @@ namespace BGE
 
 		//Machine 1
 		shared_ptr<PhysicsController> M1;
+		shared_ptr<PhysicsController> Ball;
 		shared_ptr<PhysicsController> CreateM1();
-		//procedural tower like 
+		shared_ptr<PhysicsController> CreateBall();
+		//procedural pyramid like 
 		void CreateProcedural();
 		int sR = 0;
 	};
